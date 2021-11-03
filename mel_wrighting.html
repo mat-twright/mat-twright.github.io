@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<title>PREDICTING THE NUMBER OF PARTICIPANTS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" type="image/jpg" href="images/small_bunny.jpg" />
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Raleway", sans-serif
+  }
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+  <!-- Sidebar/menu -->
+  <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+    <div class="w3-container">
+      <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+        <i class="fa fa-remove"></i>
+      </a>
+      <img src="images/better_bunny.png" style="width:45%;" class="w3-round"><br><br>
+      <h4><b>BUNNY CUP</b></h4>
+      <p class="w3-text-grey">AWARD FOR GOLFING EXCELLENCE</p>
+    </div>
+    <div class="w3-bar-block">
+      <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>GALLERY</a>
+      <a href="articles_home.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-file fa-fw w3-margin-right"></i>ARTICLES</a>
+      <a href="winner.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>WINNERS</a>
+      <a href="bunny.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullhorn fa-fw w3-margin-right"></i>RULES</a>
+      <a href="predictor.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-line-chart fa-fw w3-margin-right"></i>PARTICIPANT PREDICTOR</a>
+    </div>
+  </nav>
+
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main" style="margin-left:300px">
+
+    <!-- Header -->
+    <header id="portfolio">
+      <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:100px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+      <div class="w3-container">
+        <h1><b>WHY THE BUNNY?</b></h1>
+        <h4><em>Mel Wright</em></h4>
+      </div>
+    </header>
+
+    <div class="w3-container">
+      On 12th September 1964, Judith (Judy) Ann Welbourn married William (Bill) Rutherford Basham in St Martin’s Church, Seamer.  Not once did she consider that a bunny would somehow become synonymous with her husband. And certainly not for the reasons one might imagine. How could she have predicted that 50 years later, on 9th August 2014, whilst celebrating their golden wedding anniversary with their children and grandchildren, the rabbit’s fertile symbolism would sow the seed for an annual family event, The Bunny Cup Challenge.
+      <br><br>
+      <img src="images/wedding.jpg" style="width:30%;">
+      <br><br>
+      So, what was the connection of the bunny to Bill? I confess I’m not entirely sure how or why creating the best bunny face started, but Bill’s skills seemed to stem from a combination of teeth, tash and technique.  Step 1:  Preparation:  warm up the mouth, nose and tash (if present) to embody the bunny spirit.  Step 2: With a degree of vigour, sharply retract the lips to reveal the upper front teeth and wrinkle the nose.  Step 3: Adopt a rigid front paw position with both hands bent at the wrist and held chest high.  Hold this pose. Experience The Bunny
+      <br><br>
+      “Do a bunny, Dad” was most commonly requested by their children, Mark and Melanie. Sometimes Bill just couldn’t contain his alter-ego and it would simply break free, presenting itself at family gatherings and in restaurants. It became a family challenge; who else could do a good bunny?  Bill’s sister, Ann, or Tante as she became known as during the 1980’s Brussels years, showed particular potential. An initiation task for prospective partners, the Bunny could confound even the most proficient ham carvers or crew members being made to do an overnight trip to France on board Compromise Deux or Morangie.
+      <br><br>
+      The Bunny spirit was supremely captured by the golden bunny statue chosen by Nikki Basham, the ‘best’ of 50 golden gifts presented to Bill and Judy by their family. It launched the idea of an annual family challenge, the Bunny became the trophy, and a new chapter in the Basham family saga began.
+
+          </div>
+
+
+          <!-- End page content -->
+        </div>
+
+        <script>
+          // Script to open and close sidebar
+          function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            document.getElementById("myOverlay").style.display = "block";
+          }
+
+          function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("myOverlay").style.display = "none";
+          }
+        </script>
+
+      </body>
+      <br><br>
+</html>
